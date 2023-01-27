@@ -18,24 +18,154 @@
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
-            
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="logo image">
+                    Sushi
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About us</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#popular" class="nav__link">Popular</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#recently" class="nav__link">Recently</a>
+                        </li>
+                    </ul>
+
+                    <!-- Close Button -->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                    <img src="assets/img/leaf-branch-4.png" alt="nav image" class="nav__img-1">
+                    <img src="assets/img/leaf-branch-3.png" alt="nav image" class="nav__img-2">
+                </div>
+
+                <div class="nav__buttons">
+                    <!-- Theme Change Button -->
+                    <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+
+                    <!-- Toggle Button  -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-apps-2-line"></i>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                
+                <div class="home__container container grid">
+                    <img src="assets/img/home-sushi-rolls.png" alt="home image" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Enjoy Delicious
+
+                            <div>
+                                <img src="assets/img/home-sushi-title.png" alt="home image">
+                                Sushi Food
+                            </div>
+                        </h1>
+
+                        <p class="home__description">
+                            Enjoy a good dinner with the best dishes in 
+                            the restaurant and improve your day.
+                        </p>
+
+                        <a href="#" class="button">
+                            Order Now <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <img src="assets/img/leaf-branch-2.png" alt="home image" class="home__leaf-1">
+                <img src="assets/img/leaf-branch-4.png" alt="home image" class="home__leaf-2">
             </section>
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-                
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <span class="section__subtitle">About Us</span>
+                        <h2 class="section__title about__title">
+                            <div>
+                                We Provide
+                                <img src="assets/img/about-sushi-title.png" alt="about image">
+                            </div>
+                            Healthy Food
+                        </h2>
+
+                        <p class="about__description">
+                            Food comes to us from our relatives, whether they 
+                            have wings or roots. This is how we consider food, 
+                            it also has a culture. It has a history that passes 
+                            from generation to generation.
+                        </p>
+                    </div>
+                    <img src="assets/img/about-sushi.png" alt="about image" class="about__img">
+                </div>
+
+                <img src="assets/img/leaf-branch-1.png" alt="about image" class="about__leaf">
             </section>
 
             <!--==================== POPULAR ====================-->
             <section class="popular section" id="popular">
-                
+                <span class="section__subtitle">The Best Food</span>
+                <h2 class="section__title">Popular Dishes</h2>
+
+                <div class="popular__container container grid">
+                    <article class="popular__card">
+                        <img src="assets/img/popular-onigiri.png" alt="popular image" class="popular__img">
+
+                        <h3 class="popular__name">Onigiri</h3>
+                        <span class="popular__description">Japanese Dish</span>
+
+                        <span class="popular__price">$10.99</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="assets/img/popular-spring-rols.png" alt="popular image" class="popular__img">
+
+                        <h3 class="popular__name">Spring Rolls</h3>
+                        <span class="popular__description">Japanese Dish</span>
+
+                        <span class="popular__price">$15.99</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="assets/img/popular-sushi-rolls.png" alt="popular image" class="popular__img">
+
+                        <h3 class="popular__name">Sushi Rolls</h3>
+                        <span class="popular__description">Japanese Dish</span>
+
+                        <span class="popular__price">$19.99</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                </div>
             </section>
 
             <!--==================== RECENTLY ====================-->
@@ -61,6 +191,6 @@
         <script src=""></script>
 
         <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
+        <script src="./assets/js/main.js"></script>
     </body>
 </html>
