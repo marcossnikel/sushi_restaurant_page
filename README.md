@@ -9,16 +9,15 @@
 - Remix Icons
 - Scroll Reveal
 
+## -> A lot animations and transitions and also scrolls animations
+## -> Completely responsive.
 
-### Dark Mode and Light Mode !!
+## -> Dark Mode and Light Mode !!
 *Previews* 
 
-## Dark Mode :moon:
+#### Dark Mode :moon:
 ![Dark mode of Web Site](assets/img/dark-mode.png)
 
 
-## Light Mode :sunny:
+#### Light Mode :sunny:
 ![Light mode of Web Site](assets/img/light-mode.png)
-### A lot animations and transitions and also scrolls animations
-
-### Completely responsive.
