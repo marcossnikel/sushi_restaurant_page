@@ -1,4 +1,4 @@
-[LINK TO THE WEB PAGE](https://hokensushi.vercel.app/#home)
+## [LINK TO THE PROJECT](https://hokensushi.vercel.app/#home)
 
 # "Hoken Sushi" Website
 
