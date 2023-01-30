@@ -1,12 +1,10 @@
-/*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
+
 :root {
   --header-height: 3.5rem;
 
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
+
   --first-color: hsl(19, 64%, 54%);
   --first-color-alt: hsl(19, 64%, 52%);
   --title-color: hsl(19, 16%, 15%);
@@ -15,8 +13,7 @@
   --body-color: hsl(19, 100%, 96%);
   --container-color: hsl(19, 100%, 97%);
 
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+
   --body-font: "Poppins", sans-serif;
   --title-font: "Lora", serif;
   --subtitle-font: "Dancing Script", cursive;
@@ -28,11 +25,10 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
-  /*========== Font weight ==========*/
+
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -48,7 +44,7 @@
   }
 }
 
-/*=============== BASE ===============*/
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -85,7 +81,7 @@ img {
   height: auto;
 }
 
-/*=============== THEME ===============*/
+
 .nav__buttons{
   display: flex;
   align-items: center;
@@ -99,7 +95,7 @@ img {
   transition: color .3s;
 }
 
-/*========== Variables Dark theme ==========*/
+
 body.dark-theme{
   --first-color: hsl(19, 64%, 58%);
   --first-color-alt: hsl(19, 64%, 54%);
@@ -109,10 +105,7 @@ body.dark-theme{
   --container-color: hsl(19, 10%, 10%);
 }
 
-/*========== 
-    Color changes in some parts of 
-    the website, in light theme
-==========*/
+
 .dark-theme .bg-header,
 .dark-theme .nav__menu,
 .dark-theme .scrollup{
