@@ -1,14 +1,16 @@
-# Responsive Sushi Website
-## [Watch it on youtube](https://youtu.be/HW1zt2EPMqY)
-### Responsive Sushi Website
+# "Hoken Sushi" Website
 
-- Responsive Sushi Restaurant Website Design Using HTML CSS & JavaScript
-- Includes a dark and light mode.
-- Smooth scrolling in each section.
-- Contains animations when scrolling.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+-> fictionally website to an sushi restaurant
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+-> Stacks Used :
+- HTML
+- CSS
+- Javascript
+- Remix Icons
+- Scroll Reveal
 
-![preview img](/preview.png)
+
+### Dark Mode and Light Mode !!
+### A lot animations and transitions and also scrolls animations
+
+### Completely responsive.
