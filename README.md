@@ -1,8 +1,8 @@
 # "Hoken Sushi" Website
 
--> fictionally website to an sushi restaurant
+* Fictionally website to an sushi restaurant *
 
--> Stacks Used :
+ ** Stacks Used : **
 - HTML
 - CSS
 - Javascript
@@ -11,6 +11,11 @@
 
 
 ### Dark Mode and Light Mode !!
+* Previews * 
+
+> Dark Mode
+![Dark mode of Web Site](assets/img/dark-mode.png)
+![Light mode of Web Site](assets/img/light-mode.png)
 ### A lot animations and transitions and also scrolls animations
 
 ### Completely responsive.
